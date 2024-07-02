@@ -3,9 +3,6 @@ const CustomUserListItem = props => {
 
   return (
     <>
-      <td class='text-center' key={client.id}>
-        {client.id}
-      </td>
       <td class='text-center'>{client.username}</td>
       <td class='text-center'>{client.email}</td>
       <td class='text-center'>{client.country}</td>

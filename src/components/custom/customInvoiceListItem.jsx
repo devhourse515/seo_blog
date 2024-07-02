@@ -3,9 +3,6 @@ const CustomInvoiceListItem = props => {
 
   return (
     <>
-      <th key={invoice.id} class='text-center'>
-        {invoice.id}
-      </th>
       <th class='text-center'>{invoice.name}</th>
       <th class='text-center'>{invoice.email}</th>
       <th class='text-center'>{invoice.service}</th>

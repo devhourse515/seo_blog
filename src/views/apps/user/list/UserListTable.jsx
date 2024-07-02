@@ -334,7 +334,6 @@ const UserListTable = ({ tableData }) => {
                 </tr>
               ))} */}
               <tr>
-                <th class='text-center'>client_Id</th>
                 <th class='text-center'>client_name</th>
                 <th class='text-center'>email</th>
                 <th class='text-center'>country</th>

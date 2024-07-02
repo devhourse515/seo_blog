@@ -375,7 +375,6 @@ const InvoiceListTable = ({ invoiceData }) => {
               </tr>
             ))} */}
             <tr>
-              <th class='text-center'>invoice_Id</th>
               <th class='text-center'>name</th>
               <th class='text-center'>email</th>
               <th class='text-center'>service</th>
